@@ -1,0 +1,87 @@
+body {
+  background-color: skyblue;
+  background-image: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Landscape_01.jpg);
+  color: black;
+  text-align: justify;
+}
+
+/* Основният div */
+div#container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+  border: black 1px solid;
+  position: relative;
+  padding: 20px;
+}
+
+/* Менюто ни */
+ul#navigation {
+  width: 800px;
+  margin: 20px auto;
+  list-style: none;
+  clear: both;
+  height: 30px;
+
+}
+
+ul#navigation li {
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background: white;
+  text-transform: uppercase;
+  
+  border-radius: 15px 15px 0 0;
+}
+
+ul#navigation li:hover {
+  background: darkblue;
+  text-decoration: none;
+}
+
+ul#navigation li:hover a {
+  color: white;
+}
+
+/* Основното съдържание */
+div#main {
+  width: 600px;
+  padding: 10px;
+  float: left;
+}
+
+div#main img {
+  max-width: 580px;
+  padding: 15px;
+}
+
+div#main iframe {
+  width: 300px;
+  float: left;
+  padding: 15px;
+}
+
+/* Страничното ни поле */
+div#sidebar {
+  width: 300px;
+  padding: 10px;
+  float: left;
+}
+
+div#sidebar img {
+  max-width: 280px;
+  border-radius: 250px;
+}
+
+div#footer {
+  background: black;
+  width: 960px;
+  color: #fff;
+}
+
+div#footer img {
+  width: 600px;
+  margin: 0 auto;
+}
