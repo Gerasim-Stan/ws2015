@@ -1,0 +1,25 @@
+﻿body {
+  background-image: url(http://orig10.deviantart.net/0cc8/f/2008/136/5/b/wallpaper_dance_2_by_andzia89.jpg);
+  color: black;
+  margin: 50px 300px 200px 100px;
+} 
+
+img {
+  float: left;
+  margin-right: 50px;
+}
+ul#navigation  {
+ width: 800px;
+ margin: 20px auto;
+ list-style:  none;
+} 
+
+ul#navigation li {
+float: left;
+padding: 20px;
+}
+
+  
+ol {
+  list-style-type:upper-roman;
+}
