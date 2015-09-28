@@ -1,0 +1,26 @@
+﻿body {
+background-color: red;
+background-image:url(http://www.newstylesports.com/wp-content/uploads/2014/09/Manchester-United-Salary-2014.jpg);
+color: black;
+margin: 50px 300px 200px 100px;			
+}
+
+{  float: left;}
+
+img {
+float:center;
+padding:1px;
+width:60%;
+}	
+
+div#content {
+width: 700px;
+background-color: rgba(255,255,255,0.5);
+border-radius: 50px;
+box-shadow: 10px 10px 5px #888888;
+border: black 2px solid;
+margin-left: auto;
+margin-right: auto;
+float: none;
+padding-left: 25px;
+}

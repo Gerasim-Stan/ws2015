@@ -1,0 +1,55 @@
+body {
+  background-image: url("http://rc1023.fm/wp-content/uploads/2015/05/man-utd.jpeg"); 
+}
+
+nav {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+nav ul {
+  display: table-row;
+}
+
+nav li {
+  display: table-cell;
+  padding-top: 15px;
+}
+
+nav li a {
+  padding: 5px;
+  border: 1px black solid;
+}
+
+div#content {
+  width: 1200px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px #888888;
+  border: black 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  padding-left: 25px;
+}
+
+div#main_container {
+  width: 65%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-left {
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#side_container img {
+  margin-top: 30px;
+}
+
+#clear {
+  clear: both;
+}
