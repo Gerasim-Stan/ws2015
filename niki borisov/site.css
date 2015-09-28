@@ -1,0 +1,47 @@
+body { 
+background-image: url(http://www.magic4walls.com/wp-content/uploads/2014/03/texture-green-paper-pattern-scratch-background-photo-hd-wallpaper.jpg);
+color:#052807;
+}
+
+div#page{
+background-color: rgba(225,225,225,0.7);	
+}
+
+ul#menu{
+	width: 1000px;
+	height: 50px;
+	list-style: none;
+	margin: 50px 50px 50px 150px;
+	background-color:#5fb522; 
+
+}
+ul#menu li {
+  float: left;
+  padding-left: 95px;
+  padding-right: 95px;
+  border: 10px;
+  border-color: black;
+}
+div#zaglavie{
+  width: 600px;
+  height: 50px;
+  color: #d8f7ca;
+  padding: auto;
+
+}
+div#sydyrjanie{
+  width: 500px;
+}
+div#lenta{
+  width: 400px;
+  border-left: 10px;
+  float:right;
+}
+
+img {
+  width: 100px;
+}
+
+div.clearfix {
+  clear: both;
+}
