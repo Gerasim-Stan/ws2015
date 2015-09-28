@@ -1,0 +1,27 @@
+body {
+ background-color: cyan; 
+ background-image:url(http://img0.cfstatic.com/wallpapers/6eee4e9a50111d50f214a0f39804f57a_large.jpeg);
+  color: black;  
+  margin: 50px 300px 200px 100px;
+} 
+
+div#content { width: 600px;
+  background-color:rgb(0,255,255);
+  border-radius: 48px;
+  border: black 1px solid;
+} 
+
+div { 
+  float: right;
+  width:80%;
+} 
+
+img { 
+  float:center;
+  padding:15px; 
+  width:550px;
+  height:300px;
+} 
+ img#football{
+  width: 300px;
+ }
